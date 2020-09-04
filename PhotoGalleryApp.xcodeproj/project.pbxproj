@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		646F9A152501BECF004AAC12 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646F9A142501BECF004AAC12 /* TabView.swift */; };
+		646F9A172501C287004AAC12 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 646F9A162501C287004AAC12 /* README.md */; };
 		64C152AA2500727C000273DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C152A92500727C000273DA /* AppDelegate.swift */; };
 		64C152AC2500727C000273DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C152AB2500727C000273DA /* SceneDelegate.swift */; };
 		64C152AE2500727C000273DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C152AD2500727C000273DA /* ContentView.swift */; };
 		64C152B02500727F000273DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C152AF2500727F000273DA /* Assets.xcassets */; };
 		64C152B32500727F000273DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C152B22500727F000273DA /* Preview Assets.xcassets */; };
 		64C152B625007280000273DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C152B425007280000273DA /* LaunchScreen.storyboard */; };
+		64C152BF25007C45000273DA /* TopSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C152BE25007C45000273DA /* TopSearchView.swift */; };
+		64C152C1250086FE000273DA /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C152C0250086FE000273DA /* MainCardView.swift */; };
+		64C152C3250089FE000273DA /* SecondarySingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C152C2250089FE000273DA /* SecondarySingleCardView.swift */; };
+		64C152C525008A5E000273DA /* NavShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C152C425008A5E000273DA /* NavShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		646F9A142501BECF004AAC12 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		646F9A162501C287004AAC12 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		64C152A62500727C000273DA /* PhotoGalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoGalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C152A92500727C000273DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64C152AB2500727C000273DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		64C152B22500727F000273DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64C152B525007280000273DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64C152B725007280000273DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C152BE25007C45000273DA /* TopSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSearchView.swift; sourceTree = "<group>"; };
+		64C152C0250086FE000273DA /* MainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainCardView.swift; path = PhotoGalleryApp/MainCardView.swift; sourceTree = SOURCE_ROOT; };
+		64C152C2250089FE000273DA /* SecondarySingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondarySingleCardView.swift; sourceTree = "<group>"; };
+		64C152C425008A5E000273DA /* NavShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavShape.swift; path = PhotoGalleryApp/NavShape.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,7 @@
 		64C1529D2500727C000273DA = {
 			isa = PBXGroup;
 			children = (
+				646F9A162501C287004AAC12 /* README.md */,
 				64C152A82500727C000273DA /* PhotoGalleryApp */,
 				64C152A72500727C000273DA /* Products */,
 			);
@@ -56,6 +69,7 @@
 		64C152A82500727C000273DA /* PhotoGalleryApp */ = {
 			isa = PBXGroup;
 			children = (
+				64C152BD25007C2B000273DA /* Views */,
 				64C152A92500727C000273DA /* AppDelegate.swift */,
 				64C152AB2500727C000273DA /* SceneDelegate.swift */,
 				64C152AD2500727C000273DA /* ContentView.swift */,
@@ -73,6 +87,18 @@
 				64C152B22500727F000273DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64C152BD25007C2B000273DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64C152C425008A5E000273DA /* NavShape.swift */,
+				646F9A142501BECF004AAC12 /* TabView.swift */,
+				64C152C2250089FE000273DA /* SecondarySingleCardView.swift */,
+				64C152C0250086FE000273DA /* MainCardView.swift */,
+				64C152BE25007C45000273DA /* TopSearchView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +161,7 @@
 			files = (
 				64C152B625007280000273DA /* LaunchScreen.storyboard in Resources */,
 				64C152B32500727F000273DA /* Preview Assets.xcassets in Resources */,
+				646F9A172501C287004AAC12 /* README.md in Resources */,
 				64C152B02500727F000273DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +175,12 @@
 			files = (
 				64C152AA2500727C000273DA /* AppDelegate.swift in Sources */,
 				64C152AC2500727C000273DA /* SceneDelegate.swift in Sources */,
+				646F9A152501BECF004AAC12 /* TabView.swift in Sources */,
+				64C152BF25007C45000273DA /* TopSearchView.swift in Sources */,
 				64C152AE2500727C000273DA /* ContentView.swift in Sources */,
+				64C152C525008A5E000273DA /* NavShape.swift in Sources */,
+				64C152C1250086FE000273DA /* MainCardView.swift in Sources */,
+				64C152C3250089FE000273DA /* SecondarySingleCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
